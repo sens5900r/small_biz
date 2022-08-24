@@ -1,19 +1,19 @@
-name: "Mywebsite"
-title: "My new website"
+name: "OO_newspaper"
+title: "전환기의 예측과 대응"
 type: inverse
 left:
   - text: "About me"
     menu:
-      - text: "Learn more about me"
+      - text: "당신과 동행하는 조원씨앤아이"
         href: ./aboutme.html
   - text: "Project"
     menu:
-       - text: "Project part 1"
+       - text: "8월 정기조사"
          href: ./project1.html
-       - text: "Project part 2"
+       - text: "100일 국민인식 조사"
          href: ./project2.html
   - text: "Contact"
-    href: ./contact.html
+    href: http://www.jowoncni.com/html/index.html
 right:
   - icon: fa-github fa-lg
     href: https://github.com/githubusername/mywebsite

@@ -1,4 +1,4 @@
-name: "My new website"
+name: "전환기의 예측과 대응"
 output_dir: 'docs'
 output:
   html_document:
