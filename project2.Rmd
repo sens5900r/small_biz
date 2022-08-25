@@ -8,22 +8,34 @@ date: "2022-08-25"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+### 윤석열 대통령 국정 운영 평가
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+QA01. 귀하께서는 윤석열 대통령이 국정운영을 얼마나 잘하고 있다고, 혹은 잘못하고 있다고 생각하십니까?
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+| 잘함 | 잘못함 | 잘모름(%) |
+|:----:|:------:|:---------:|
+| 28.2 |  67.8  |    4.0    |
+
+| 매우 잘함 | 어느정도 잘함 | 어느정도 잘못함 | 매우잘못함 | 잘모름(%) |
+|:---------:|:-------------:|:---------------:|:----------:|:---------:|
+|    8.4    |     19.7      |      17.9       |    49.9    |    4.0    |
 
 ```{r cars}
 summary(cars)
 ```
 
-## Including Plots
+### Including Plots
 
 You can also embed plots, for example:
+
+![\<이미지 파일을 넣을 수 있습니다\>](image_test1.png)
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+### 두번째 (핵심) 질문 (목록)
+
+잘못함을 구성하는 하위 항목들의 순서와 비율을 보입니다.
